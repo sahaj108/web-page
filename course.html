@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<style>
+	 body{
+		background-image: url("b1.jpg");
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+
+}
+
+h1,h2{
+	margin: 0;     
+	color: green;
+	padding-top: 90px;
+	font-size: 45px;
+	font-family: "Times New Roman", Georgia, Serif;    
+}
+
+.item{
+background: green;    
+text-align: center;
+height: 300px !important;
+}
+
+
+.inverse{
+color:white;
+border-radius: 10px;
+border:1px solid blue;
+}
+	</style>
+
+	</head>
+<body>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="1selectors.js"></script>
+<nav id="myNavbar" class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse"><span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="nav navbar-nav">
+				<li><a href="main.html">HOME</a></li>
+					<li> <a href="login.html">LOG IN</a></li>
+					<li><a href="signup.html">SIGN UP </a></li>
+					<li class="active"><a href="course.html">LANGUAGE COURSES</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+				</ul>
+			</div>
+			<div>
+			</nav>
+			<div class="container" >
+				<div class="jumbotron">
+					<h1>Sage</h1>
+					<p>
+						Sage – a global online learning community, filled with free, high-quality online education resources to help you develop essential, certified workplace skills.
+
+					<hr>
+	
+					<div>
+						<div class="container">
+							<div id="courses" class="row">
+								<div class="col-md-3 shaded inverse ">
+									<a onclick="alert('You must login as a student to obtain access to the course information');" href="#">
+									<h3 >English</h3>
+									<img src="6.jpg" class="col-xs-12">
+									</a>		
+								</div>
+								<div class="col-md-3 shaded inverse">
+									<a onclick="alert('You must login as a student to obtain access to the course information');" href="#">
+									<h3>Cnineese</h3>
+									<img src="7.jpg" class="col-xs-12">
+									</a>
+								</div>
+								<div class="col-md-3 shaded inverse">
+									<a onclick="alert('You must login as a student to obtain access to the course information');" href="#">
+									<h3>Russian</h3>
+									<img src="8.jpg" class="col-xs-12">
+									</a>
+								</div>
+								<div class="col-md-3 shaded inverse ">
+									<a onclick="alert('You must login as a student to obtain access to the course information');" href="#">
+									<h3>Spanish</h3>
+									<img src="9.jpg" class="col-xs-12">
+									</a>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<hr>
+					<div class="col-md-12 text-center">
+						
+						<a href="login.html" class="btn btn-info btn-sm">Log In</a> 
+						<a href="signup.html" class="btn btn-danger btn-sm">Sign Up</a>
+						
+					</div>
+
+				</div>
+
+			</div>
+			
+		</div>
+
+		<hr>
+		<div class="container">		
+			<div class="col-xs-12">
+				<footer>
+					<p>&copy Copyright 2015 Sage</p>
+				</footer>
+			</div>
+		</div>
+
+	</body>
+
+
+	</html>
