@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>contact</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <style>
+ body{
+		background-image: url("b1.jpg");
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+
+}
+
+h1,h2{
+	margin: 0;     
+	color: green;
+	padding-top: 90px;
+	font-size: 45px;
+	font-family: "Times New Roman", Georgia, Serif;    
+}
+
+
+</style>
+</head>
+
+
+<body>
+	<nav id="myNavbar" class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse"><span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="nav navbar-nav">
+				<li><a href="main.html">HOME</a></li>
+					<li><a href="login.html">LOG IN</a></li>
+					<li><a href="signup.html">SIGN UP </a></li>
+					<li><a href="course.html">LANGUAGE COURSES</a></li>
+					<li class="active"><a href="contact.html">CONTACT</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+				</ul>
+			</div>
+			<div>
+			</nav>
+		
+</nav>
+
+			<div class="container" >
+				<div class="jumbotron">
+					<h1>Contact Us:</h1>
+					<p>
+
+Phone: +353-91-680-103
+<br />
+E-mail: sage@info.com
+					</p>
+
+							</div>
+						</div>
+					</div>
+					
+
+				<div>
+
+			</div>
+		</div>
+
+		
+	<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+	<div class="container">
+		<label for="name">Your name:</label><br />
+		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+	</div>
+	<div class="container">
+		<label for="email">Your email:</label><br />
+		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+	</div>
+	<div class="container">
+		<label for="message">Your message:</label><br />
+		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+	</div>
+	<div class="container">
+	<!--<input id="submit_button" type="submit" value="Send email" />-->
+	<input type="button" id="animate" value="Send email"/>
+	<div>
+</form>		
+	</body>
+<hr>
+		<div class="container">
+			<div class="col-xs-12">
+				<footer>
+					<p>&copy Copyright 2015 Sage</p>
+				</footer>
+			</div>
+		</div>
+<script type="text/javascript" src="jquery.js"></script>
+<!--<script type="text/javascript" src="1selectors.js"></script>-->
+<script>
+$(document).ready(function(){
+$('#animate').click(function(){
+$('form').fadeToggle(1000)
+alert('Thank you')
+});
+});
+</script>
+
+</body>
+</html>
